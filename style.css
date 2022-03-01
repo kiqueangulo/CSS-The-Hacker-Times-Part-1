@@ -20,11 +20,18 @@ body {
 }
 
 header h1 {
-    width: 45%;
+    width: 70%;
     margin: auto;
+    padding-left: 15%;
     padding-bottom: 0.5em;
     font-family: 'Abril Fatface';
     font-size: 60px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 nav ul {
@@ -45,7 +52,8 @@ nav li {
 
 nav a {
     text-decoration: none;
-    padding: 1em;
+    color: gray;
+    padding: 0.5em;
 }
 
 main {
@@ -85,16 +93,32 @@ main p {
 }
 
 .more-articles section {
-    display: inline-block; /*problem*/
-    width: 30%;
+    display: inline-block;
+    width: 45%;
+    margin: auto;
+    padding: 2%;
 }
 
 section h4 {
     font-family: 'Roboto Slab';
+    font-size: 21px;
 }
 section p {
-    width: 80%;
+    width: 97%;
     margin: auto;
     text-align: justify;
     text-justify: inter-word;
 }
+
+section img {
+    width: 100%;
+    margin: auto;
+}
+
+footer {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #373737;    
+    color: #eee;
+}
+
