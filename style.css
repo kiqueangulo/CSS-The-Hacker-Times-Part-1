@@ -85,7 +85,7 @@ main p {
 }
 
 .more-articles section {
-    display: inline; /*problem*/
+    display: inline-block; /*problem*/
     width: 30%;
 }
 
